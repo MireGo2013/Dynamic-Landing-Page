@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	color: black;
+	font-size: 10px;
+	background: no-repeat center center fixed;
+	background-size: 100%;
+}
+
+h1 {
+	margin-bottom: 1.5rem;
+}
+
+h2, p {
+	margin-bottom: .7rem;
+	opacity: 0.9;
+	font-size: 1rem;
+	font-weight: bold;
+}
+p {
+	opacity: 0.7;
+}
