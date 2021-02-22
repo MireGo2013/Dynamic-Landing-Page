@@ -69,6 +69,9 @@ function setName(e) {
 		if (e.which == 13 || e.keyCode == 13) {
 			localStorage.setItem('name', e.target.innerText);
 			name.blur();
+			if (e.target.textContent === '') {
+				e.target.textContent = '[Enter Your Name]';
+			}
 		}
 	} else {
 		localStorage.setItem('name', e.target.innerText);
