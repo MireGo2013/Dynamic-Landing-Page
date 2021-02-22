@@ -5,7 +5,7 @@ const time = document.getElementById('time'),
 	focus = document.getElementById('focus');
 
 // Option 
-const showAmPm = true
+const showAmPm = true;
 
 // Show Time
 function showTime() {
